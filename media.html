@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media_Query</title>
+    <style>
+    .clip-arrow{
+        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+        background-color:aqua;
+    }
+       
+        
+    @media all and (max-width: 1146px) and (min-width:921px) {
+        .clip-arrow {
+            width: 100%;
+            padding: 40px;
+            margin: 15px;
+            float: none;
+        }
+    }
+    @media all and (max-width: 920px) and (min-width: 721px) {
+        .clip-arrow {
+            width: 80%;
+            padding: 30px;
+            margin: 5px;
+            float: none;
+        }
+    }
+
+    @media all and (max-width: 720px) and (min-width: 521) {
+        .clip-arrow {
+            width: 65%;
+            padding: 25px;
+            margin: 5px;
+            float: left;
+        }
+    }
+
+    @media all and (max-width: 520px) and (min-width:321px) {
+        .clip-arrow {
+            width: 35%;
+            padding: 5px;
+            margin: 2px;
+            float: left;
+        }
+    }
+
+    @media all and (max-width: 320px) {
+        .clip-arrow {
+            width: 45%;
+            padding: 30px;
+            margin: 15px;
+            float: left;
+        }
+    }
+           
+    </style>
+</head>
+
+<body>
+
+    <h1>Water Cycle</h1>
+
+    <img class="clip-arrow" src="WIN_20220521_18_57_51_Pro.jpg" alt="This is Sakshi Wanare" width="28%" height="40%">
+            
+    <img class="clip-arrow" src="guitar.jpg" alt="This is Sakshi Wanare" width="28%" height="40%">
+            
+    <img class="clip-arrow" src="cover theme.jpg" alt="This is Sakshi Wanare" width="28%" height="40%">
+           
+    <img class="clip-arrow" src="cartoon girl.webp" alt="This is Sakshi Wanare" width="28%" height="40%">
+            
+    <img class="clip-arrow" src="1588274620-963651-couple-poses-2jpg-6-1.jpg" alt="This is Sakshi Wanare" width="28%" height="40%">
+           
+</body>
+
+</html>

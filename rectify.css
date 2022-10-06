@@ -1,0 +1,84 @@
+body {
+    background-image: url("guitar.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 1000px;
+    color:rgb(216, 227, 227);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+    font-size: 0.8cm;
+    
+   }
+   h1{
+    text-align: -webkit-center;
+    padding-left: 700px;
+    font-size:1.8cm;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: rgb(224, 30, 30);
+    
+    text-shadow: 6px 5px #310202;
+   }
+   div{
+    text-align: -webkit-center;
+    padding-left: 700px;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    color: #570909;
+    
+   }
+   .special{
+    padding-left: 6px;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    color: #570909;
+   }
+   .li{
+    padding-left: 920px;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    color: #570909;
+   }
+   .ty{
+    padding-left: 920px;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    color: #570909;
+   
+   }
+   .em{
+    padding-left: 920px;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    color: #570909;
+   }
+   .rt{
+    padding-left: 920px;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    color: #570909;
+   }
+   .uh{
+    padding-left: 920px;
+   }
+   input[type="text"],
+   input[type="email"],
+   
+   select,
+   textarea{
+    width: 29%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   }
+   input[type="submit"]{
+    width: 29%;
+    padding: 12px;
+    background-color: #490404;
+    color: rgb(224, 212, 227);
+    font-weight: 300;
+    font-size: 25px;
+    border-radius: 5px;
+   }
+   
+   
+   

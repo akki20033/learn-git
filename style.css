@@ -1,0 +1,47 @@
+h3{
+    color: aquamarine;
+}
+p,a{
+    color: brown;
+}
+
+li{
+    list-style-type: square;
+}
+
+.special {
+    color:coral;
+    font-weight: bold;
+}
+
+li em{
+    color: rebeccapurple;
+}
+
+h1+p{
+    font-size: 200%;
+}
+
+a:hover{
+    color:indianred;
+    text-decoration: none;
+}
+
+body h1+p ul li .special{
+    color:blue;
+    background-color: cadetblue;
+    padding: 5px;
+}
+
+li[class]{
+    font-size: 300%;
+}
+li[class="special"]{
+    color: royalblue;
+}
+li[class~="special"]{
+    color:darkgreen;
+}
+*{
+    list-style-type: none;
+}
