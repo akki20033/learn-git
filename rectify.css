@@ -66,9 +66,7 @@ body {
    select,
    textarea{
     width: 29%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    
    }
    input[type="submit"]{
     width: 29%;
