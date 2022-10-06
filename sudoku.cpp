@@ -56,7 +56,7 @@ bool findEmptyPlace(int &row, int &col){ //get empty location and update row and
 }
 bool isValidPlace(int row, int col, int num){
    //when item not found in col, row and current 3x3 box
-   return !isPresentInRow(row, num)  && !isPresentInCol(col, num) && !isPresentInBox(row - row%3 ,
+   return !isPresentInRow(row, num) && !isPresentInBox(row - row%3 ,
 col - col%3, num);
 }
 bool solveSudoku(){
