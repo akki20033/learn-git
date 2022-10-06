@@ -462,7 +462,7 @@ public:
     }
 
     void AlternateTurn() {
-        mcPlayerTurn = (mcPlayerTurn == 'W') ? 'W' : 'B';
+        mcPlayerTurn = (mcPlayerTurn == 'W') ? 'B' : 'W';
     }
 
     bool IsGameOver() {
