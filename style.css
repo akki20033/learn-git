@@ -27,6 +27,11 @@ a:hover{
     text-decoration: none;
 }
 
+body h1+p ul li .special{
+    color:blue;
+    background-color: cadetblue;
+    padding: 5px;
+}
 
 li[class]{
     font-size: 300%;
